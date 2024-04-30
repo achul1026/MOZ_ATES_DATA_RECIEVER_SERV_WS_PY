@@ -1,0 +1,28 @@
+{
+  "app" : {
+    "port" : 8000,
+    "file_path" : ""
+  },
+  "db" : {
+    "user": "mozatespy",
+    "password": "bluedus12#$",
+    "host": "218.152.205.17",
+    "port": 3306,
+    "database": "MOZATES",
+    "failover" : [
+      {
+            "user": "mozatespy",
+            "password": "bluedus12#$",
+            "host": "218.152.205.17",
+            "port": 3306,
+            "database": "MOZATES"
+        }, {
+            "user": "mozatespy",
+            "password": "bluedus12#$",
+            "host": "218.152.205.17",
+            "port": 3306,
+            "database": "MOZATES"
+        }
+    ]
+  }
+}
